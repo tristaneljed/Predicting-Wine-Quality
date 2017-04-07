@@ -152,14 +152,3 @@ importances = pd.DataFrame(zip(X_train.columns, rf.feature_importances_))
 importances.columns = ['feature name', 'importance']
 importances.sort(ascending=False)
 # The alcohol content has the greatest influence on the expert evaluation of wine quality.
-
-
-
-
-
-
-
-
-
-
-
